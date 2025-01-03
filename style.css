@@ -1,0 +1,22 @@
+ body{
+    font-family: cursive;
+    background-color: dimgrey;
+ }
+ h1, h2{
+    color: white;
+    font-size: 30px;
+    text-align: start;
+ }
+
+ article > h1, article > p {
+    padding: 10px;
+    margin: 10px;
+ }
+
+ main > section{
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+
+ }
+
