@@ -2,11 +2,18 @@
  body{
     font-family: cursive;
     background-color: dimgrey;
+    line-height: 150%;
+    text-align: start;
+
  }
  h1, h2{
     color: white;
     font-size: 30px;
     text-align: center;
+ }
+ p {
+   font-size: 15px;
+   text-align: center;
  }
 
  article > h1, article > p {
@@ -23,5 +30,33 @@
 
  * {
    box-sizing: border-box;
+ }
+
+ .horizental_align{
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+ }
+
+ .no_dot{
+   list-style: none;
+ }
+ .column1{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+ }
+
+ .column2{
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+
+ }
+
+ .roboto_font {
+   font-family: "Roboto", serif;
+   font-weight: 500;
+   font-style: normal;
  }
 
